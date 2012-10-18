@@ -17,7 +17,7 @@ atmega644.bootloader.lock_bits=0x0F
 
 atmega644.build.mcu=atmega644p
 atmega644.build.f_cpu=16000000L
-atmega644.build.core=arduino
+atmega644.build.core=arduino:arduino
 atmega644.build.variant=standard
 ##############################################################
 
@@ -37,7 +37,7 @@ atmega12848m.bootloader.lock_bits=0x0F
 
 atmega12848m.build.mcu=atmega1284p
 atmega12848m.build.f_cpu=8000000L
-atmega12848m.build.core=arduino
+atmega12848m.build.core=arduino:arduino
 atmega12848m.build.variant=standard
 
 ##############################################################
@@ -58,6 +58,6 @@ atmega1284.bootloader.lock_bits=0x0F
 
 atmega1284.build.mcu=atmega1284p
 atmega1284.build.f_cpu=16000000L
-atmega1284.build.core=arduino
+atmega1284.build.core=arduino:arduino
 atmega1284.build.variant=standard
 #
