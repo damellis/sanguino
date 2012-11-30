@@ -1,0 +1,3 @@
+usbtinyisp.name=USBtinyISP (force)
+usbtinyisp.protocol=usbtiny
+usbtinyisp.force=true
