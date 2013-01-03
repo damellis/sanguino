@@ -1,3 +1,24 @@
+##############################################################
+
+cellphone.name=DIY Cellphone (ATmega1284p, 8mhz)
+
+cellphone.upload.protocol=stk500
+cellphone.upload.maximum_size=131072
+cellphone.upload.speed=19200
+
+cellphone.bootloader.low_fuses=0xFF
+cellphone.bootloader.high_fuses=0xDA
+cellphone.bootloader.extended_fuses=0xFF
+cellphone.bootloader.path=atmega
+cellphone.bootloader.file=ATmegaBOOT_168_atmega1284p_8m.hex
+cellphone.bootloader.unlock_bits=0x3F
+cellphone.bootloader.lock_bits=0x0F
+
+cellphone.build.mcu=atmega1284p
+cellphone.build.f_cpu=8000000L
+cellphone.build.core=arduino:arduino
+cellphone.build.variant=standard
+
 ############################################################
 
 atmega644.name=Sanguino W/ ATmega644P
