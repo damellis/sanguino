@@ -54,6 +54,10 @@
 #define TIMER5B 15
 #define TIMER5C 16
 
+// for the GSM shield
+#define __TXPIN__ 11
+#define __RXPIN__ 10
+
 const static uint8_t SS   = 4;
 const static uint8_t MOSI = 5;
 const static uint8_t MISO = 6;
